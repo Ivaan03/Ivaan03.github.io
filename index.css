@@ -245,11 +245,11 @@ body:not(.user-is-tabbing) a:focus {
 .btn:hover::after,
 .btn:focus::after {
     right: 0;
-    background: var(--whit);
+    background: var(--white);/*Deslizado final grandes final*/
 }
 
 .btn--pink {
-    background: var(--pink);
+    background: var(--white);/**/
     transition: all 0.2s;
 }
 
