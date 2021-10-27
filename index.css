@@ -34,10 +34,12 @@
     --line-height-normal: 1.7;
     --line-height-small: 1.2;
 
+
     --black: #000;
     --pink: #ff3258;
     --white: #00ff21;        /*Green Wey*/
     --white-1: #e5e5e6da;
+    --whitef: #e5e5e6da;
 
 
     --container-max-width: 1180px;
@@ -125,7 +127,7 @@ h3 {
     font-family: 'Jost', sans-serif;
     font-weight: 400;
     line-height: var(--line-height-small);
-    color: var(--white);
+    color: var(--whitef);
 }
 
 .heading-primary {
@@ -150,7 +152,7 @@ h2::after {
     display: block;
     height: 2px;
     width: 10rem;
-    background: var(--pink);
+    background: var(--white);
     margin: var(--gutter-small) 0;
 }
 
