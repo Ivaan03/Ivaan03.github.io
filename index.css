@@ -203,7 +203,7 @@ a {
 
 button:focus,
 a:focus {
-    outline: 2px solid var(--white);/**/
+    outline: 2px solid var(--whit);/**/
 }
 
 body:not(.user-is-tabbing) button:focus,
@@ -212,7 +212,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .link:hover {
-    color: var(--whit);/**/
+    color: var(--whit);/*???*/
 }
 
 .btn {
