@@ -40,7 +40,7 @@
     --white: #00ff21;        /*Green Wey*/
     --white-1: #e5e5e6da;
     --whitef: #e5e5e6da;
-
+    --whit: #0026ff;       /*Azul*/
 
     --container-max-width: 1180px;
     --container-normal-width: 800px;
@@ -212,7 +212,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .link:hover {
-    color: var(--white);/**/
+    color: var(--whit);/**/
 }
 
 .btn {
@@ -221,7 +221,7 @@ body:not(.user-is-tabbing) a:focus {
     padding: 1rem 4.2rem;
     text-decoration: none;
     color: inherit;
-    border: 1px solid  var(--whitef);/**/
+    border: 1px solid  var(--whitef);/*Marco links grandes*/
     font-weight: 400;
 }
 
