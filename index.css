@@ -221,7 +221,7 @@ body:not(.user-is-tabbing) a:focus {
     padding: 1rem 4.2rem;
     text-decoration: none;
     color: inherit;
-    border: 1px solid  var(--white);/**/
+    border: 1px solid  var(--whitef);/**/
     font-weight: 400;
 }
 
