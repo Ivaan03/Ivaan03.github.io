@@ -34,11 +34,13 @@
     --line-height-normal: 1.7;
     --line-height-small: 1.2;
 
+
     --black: #000;
     --pink: #ff3258;
-    --white: #f0e9f2;
+    --white: #2d8323;        /*Green Wey*/
     --white-1: #e5e5e6da;
-
+    --whitef: #e5e5e6da;
+    --whit: #0026ff;       /*Azul*/
 
     --container-max-width: 1180px;
     --container-normal-width: 800px;
@@ -70,7 +72,7 @@ body {
     font-size: var(--font-size-small);
     font-family: var(--font-stack);
     font-weight: 400;
-    color: var(--white-1);
+    color: var(--whitef);      /*Todas las letras*/
     line-height: var(--line-height-normal);
     background: var(--black);
     overflow-x: hidden;
@@ -125,7 +127,7 @@ h3 {
     font-family: 'Jost', sans-serif;
     font-weight: 400;
     line-height: var(--line-height-small);
-    color: var(--white);
+    color: var(--whitef);/*Titulos y subtitulos*/
 }
 
 .heading-primary {
@@ -150,7 +152,7 @@ h2::after {
     display: block;
     height: 2px;
     width: 10rem;
-    background: var(--pink);
+    background: var(--white);     /*Lineas*/
     margin: var(--gutter-small) 0;
 }
 
@@ -188,7 +190,7 @@ p {
 /* --------------------------------------- */
 
 a {
-    color: var(--white);
+    color: var(--whitef);l/*Letras Links*/
     font-weight: 400;
     font-family: 'Jost', sans-serif;
     transition: all .2s;
@@ -201,7 +203,7 @@ a {
 
 button:focus,
 a:focus {
-    outline: 2px solid var(--pink);
+    outline: 2px solid var(--whit);/*???*/
 }
 
 body:not(.user-is-tabbing) button:focus,
@@ -210,7 +212,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .link:hover {
-    color: var(--pink);
+    color: var(--whit);/*???*/
 }
 
 .btn {
@@ -219,7 +221,7 @@ body:not(.user-is-tabbing) a:focus {
     padding: 1rem 4.2rem;
     text-decoration: none;
     color: inherit;
-    border: 1px solid  var(--pink);
+    border: 1px solid  var(--whitef);/*Marco links grandes*/
     font-weight: 400;
 }
 
@@ -234,7 +236,7 @@ body:not(.user-is-tabbing) a:focus {
     top: 0;
     left: 0;
     right: 100%;
-    background: var(--white);
+    background: var(--white);/*Deslizar principio grandes final*/
     height: 100%;
     z-index: -1;
     transition: all 0.2s cubic-bezier(1, 0.68, 0.16, 0.9);
@@ -243,11 +245,11 @@ body:not(.user-is-tabbing) a:focus {
 .btn:hover::after,
 .btn:focus::after {
     right: 0;
-    background: var(--pink);
+    background: var(--white);/*Deslizado final grandes final*/
 }
 
 .btn--pink {
-    background: var(--pink);
+    background: var(--white);/**/
     transition: all 0.2s;
 }
 
@@ -266,7 +268,7 @@ body:not(.user-is-tabbing) a:focus {
     padding: .6rem;
     color: inherit;
     text-decoration: none;
-    border-bottom: 1px solid var(--pink);
+    border-bottom: 1px solid var(--white);
 }
 
 .link__text::after {
@@ -289,7 +291,7 @@ body:not(.user-is-tabbing) a:focus {
 .link__text:hover::after,
 .link__text:focus:after {
     right: 0;
-    background: var(--pink);
+    background: var(--white);
 }
 
 .link__text span {
@@ -308,7 +310,7 @@ body:not(.user-is-tabbing) a:focus {
     align-items: center;
     height: 5.5rem;
     width: 5.5rem;
-    background-color: var(--pink);
+    background-color: var(--white);
     border-radius: 50%;
     z-index: 10;
     visibility: hidden;
@@ -390,13 +392,13 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .nav__link:hover {
-    color: var(--pink);
+    color: var(--white);
 }
 
 .nav__link:hover::after {
     right: 0;
     height: 2px;
-    background: var(--pink);
+    background: var(--white);
 }
 
 /* --------------------------------------- */
@@ -405,7 +407,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .header {
     background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
-        url('./images/header.jpg');
+        url('./images/nEZIpj.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
