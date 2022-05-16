@@ -1,243 +1,30 @@
-﻿
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" type="image/jpg" href="./images/Logo.jpg" />
+    <title>3d model</title>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="generator" content="Geany 1.37.1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Put your site title here -->
-    <title>
-        Portfolio | Iván Pajares.
-    </title>
-    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-    <meta name="description" content="Add small description of yourslef.">
-    <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
-    <meta name="keywords" content="Put your name, skills and some coding keywords" />
-    <link rel="stylesheet" href="index.css" />
+
+    <link href="style.css" rel="stylesheet">
+
+
+    <script src="https://unpkg.com/@webcomponentsjs@2.1.3/webcomponents-loader.js"></script>
 </head>
 
 <body>
+    <model-viewer src="./image/a.glb" alt="A 3D model of light" shadow-intensity="1" camera-controls auto-rotate ar >
+    </model-viewer>
 
-  <!-- ***** Header ***** -->
+    <script type="module"
+            src="https;//unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+    </script>
 
-  <header class="header" role="banner" id="top">
-    <div class="row">
-      <nav class="nav" role="navigation">
-        <ul class="nav__items">
-          <li class="nav__item"><a href="#Trabajos" class="nav__link">Trabajos</a></li>
-          <li class="nav__item">
-            <a href="#Sobre Mi" class="nav__link">Sobre Mi</a>
-          </li>
-          <li class="nav__item">
-            <a href="#contacto" class="nav__link">Contacto</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-    <div class="header__text-box row">
-      <div class="header__text">
-        <h1 class="heading-primary">
-          <!-- Replace the following name with your name -->
-          <span>Iván Pajares</span>
-        </h1>
-        <!-- Put a small paragraph about yourself -->
-        <p>Programador de Unity 3D C#, 20 años, titulando tecnico superior de Animación 3D y entornos interactivos, Madrid / España.</p>
-        <a href="#contacto" class="btn btn--pink">Contacto en un toque</a>
-      </div>
-    </div>
-  </header>
-
-  <main role="main">
-
-    <!-- ***** Work ***** -->
-
-    <section class="Trabajos" id="Trabajos">
-      <div class="row">
-        <h2>Mis Trabajos</h2>
-        <div class="work__boxes">
-
-          <!-- Each div with the work__box class is a project. -->
-
-            <div class="work__box">
-                <div class="work__text">
-                    <h3>Buscaminas</h3>
-                    <p>
-                        Juego clasico del buscaminas desarrollado en visual studio C#.
-                    </p>
-                    <ul class="work__list">
-                        <li>C#</li>
-                        <li>Visual Studio</li>
-                    </ul>
-
-                    <div class="work__links">
-                        <a href="https://github.com/Ivaan03/Ivaan03_jobs_github.io.git" target="_blank" class="link__text">
-                            Visit Site <span>&rarr;</span>
-                        </a>
-                    </div>
-                </div>
-                
-                <div class="work__image-box">
-                    <model-viewer alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum" src="https://cdn.glitch.global/cccbd622-91e9-4ca1-990a-ebb27ae7a195/a.glb?v=1652687867537" ar ar-modes="webxr scene-viewer quick-look" environment-image="shared-assets/environments/moon_1k.hdr" poster="shared-assets/models/NeilArmstrong.webp" seamless-poster shadow-intensity="1" camera-controls enable-pan></model-viewer>
-                </div>
-            </div>
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Laberinto</h3>
-              <p>
-                  Juego del laberinto desarrollado en visual studio C#, personalizado con poderes los cuales te ayudarana a ganar, el objetivo es lograr llegar al #.
-              </p>
-              <ul class="work__list">
-                <li>Visual Studio</li>
-                <li>C#</li>                
-              </ul>
-              <div class="work__links">
-                <a href="https://github.com/Ivaan03/Ivaan03_jobs_github.io.git" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/Lab.png" class="work__image" alt="Lab" />
-            </div>
-          </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Flappy Bird</h3>
-              <p>
-                Juego clasico del Flappy Bird desarrollado en Unity, el cual el objetivo es hacer el máximo numero de puntos con tu muñeco.
-              </p>
-              <ul class="work__list">
-                  <li>Visual Studio</li>
-                  <li>C#</li>
-                  <li>Unity</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="https://github.com/Ivaan03/Ivaan03_jobs_github.io.git" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="#">                  
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/Fb.jpg" class="work__image" alt="Fb" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ***** About ***** -->
-
-    <section class="Sobre Mi" id="Sobre Mi">
-      <div class="row">
-        <h2>Sobre Mi</h2>
-        <div class="about__content">
-          <div class="about__text">
-            <!-- Replace the below paragraph with info about yourself -->
-            <p>
-              Me llamo iván Pajares Román y tengo 20 años.Actualmente estoy estudiando el Grado Superior de Técnico Superior en Animaciones 3D y Entornos Interactivos debido a que me quiero decicar a la programación de videojuegos profesionalmente ponienddo el maximo esfuerzo y empeño en cada trabajo que realizo.
-            </p>
-            <!-- Provide a link to your resume -->
-            <a href="#" class="btn">My Resume</a>
-          </div>
-          <div class="about__photo-container">
-            <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/Ivan.jpg" alt="" />
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- ***** Contact ***** -->
-
-  <section class="contacto" id="contacto">
-    <div class="row">
-      <h2>Lenguajes y Contacto</h2>
-      <div class="contact__info">
-
-
-          <div class="about__photo-container" style ="float:right">         
-              
-              <img class="about__photo" src="./images/Unity.png" alt="Unity" />
-
-          </div>
-          <p>
-
-              Creación de proyectos en Unity de forma personal.
-
-          </p>
-
-          <div class="about__photo-container" style ="float:right">          
-              
-              <img class="about__photo" src="./images/Visual.png" alt="Visual" />
-
-          </div>
-          <p>
-
-              Conocimiento de Visual Studio en C#, consola de comandos y Unity.
-
-          </p>
-          <div class="about__photo-container" style ="float:right">
-              
-              <img class="about__photo" src="./images/Cesar.png" alt="Cesar" />
-
-          </div>
-          <p>
-
-              Conocimiento de C# orientado en la mayoria de veces en los videojuegos, vinculado a Unity.
-
-          </p>
-
-          <div class="about__photo-container" style ="float:right">
-             
-              <img class="about__photo" src="./images/Git.png" alt="Git" />
-
-          </div>
-          <p>
-
-              Conocimiento en el uso de Git para subir y bajar archivos a repositorios.
-
-          </p>
-
-          
-
-          <a href="mailto:ivan.pajares.roman1111@gmail.com" class="btn">ivan.pajares.roman1111@gmail.com</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ***** Footer ***** -->
-
-  <footer role="contentinfo" class="footer">
-    <div class="row">
-      
-      <ul class="footer__social-links">
-        <li class="footer__social-link-item">
-          <a href="https://github.com/Ivaan03" title="Link del perfil de Github">
-            <img src="./images/github.svg" class="footer__social-image" alt="Github">
-          </a>
-        </li>      
-      </ul>
-
-     
-      <p>
-        &copy; 2021 - Template designed & developed by <a href="https://github.com/Ivaan03/Ivaan03_jobs_github.io.git" class="link">Iván</a>.
-      </p>
-      
-    </div>
-  </footer>
-
-  <a href="#top" class="back-to-top" title="Back to Top">
-    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
-  </a>
-  <script src="./index.js"></script>
+    <script nomodule
+            src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
+    </script>
 </body>
 
 </html>
